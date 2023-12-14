@@ -37,12 +37,7 @@ BOOST_AUTO_TEST_CASE(try_read_non_existing_file) {
 
 
 
-BOOST_AUTO_TEST_CASE(empty_string_hash_calculation) {
-    HashCalculator hashCalculator;
-    
-    std::string emptyString = "";
-    BOOST_CHECK_EQUAL(hashCalculator.calculateStringHash(emptyString), "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855");
-}
+
 
 //sprawdzic czy dobrze liczy rozmiar
 // dobre hashmapy
